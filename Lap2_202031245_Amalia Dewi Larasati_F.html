@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title> Pendaftaran Lomba Cerdas Cermat </title>
+    </head>
+    <body> 
+    <br/>
+        <h1> REGISTRASI PERLOMBAAN CERDAS CERMAT TINGKAT NASIONAL </h1>
+        <img src="download.jpg" width="300" height="150" alt=""/>
+    <br/>
+        <nav>
+            <ul>
+                <li> <a href="https://sejutacita.id/">HomePage</a></li> <li> <a href="https://sejutacita.id/lcc">Buku Panduan Pendaftaran</a></li>
+        </nav>
+ 
+    <br/>
+        <h2>Formulir Pendaftaran Lomba</h2>
+        <form>
+            <fieldset>
+              <legend>Data Pendaftaran Akun</legend>
+              <table> 
+                  
+        <tr><td> <label for="email" >Email Akun : </label></td>
+            <td> <input type="email" id="email" name="email" required placeholder="Masukkan Email Anda" autocomplete="off"/> </td> </tr> 
+
+        <tr> <td> <label for="username" >Username/id : </label></td>
+             <td> <input type="text" id="username" name="username" required placeholder="Masukkan Username Anda" autocomplete="off"/> </td> </tr> 
+
+        <tr> <td> <label for="password">Password : </label></td>
+             <td> <input type="password" id="password" name="password" required placeholder="Masukkan Password Anda" 
+                    minleght="6" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}"
+                    title="Please make a password at least 6 digits with at least one capital letter and symbol" autocomplete="off"/> 
+             </td> </tr> 
+
+</table> 
+        <br/>
+        <button type="reset" value="batal">Reset</button> 
+        <button type="submit" value="kirim">Submit</button>
+        
+</fieldset>    
+
+<br/>
+
+<fieldset>
+      <legend>Data Diri Peserta</legend>
+   
+    <table>
+        <tr><td> <label for="name">Nama Lengkap : </label> </td>
+            <td> <input type="text" id="name" name="name" required placeholder="Masukkan Nama Anda" autofocus autocomplete="off"/> 
+        </td></tr> 
+
+         <tr><td> <label for="Alamat">Alamat Lengkap : </label> </td>
+             <td> <textarea name="Alamat" placeholder="Alamat Anda" required></textarea>
+        </td></tr>   
+
+         <tr><td> <label for="tempatlahir">Tempat Lahir : </label> </td>
+             <td> <input type="text" id="tempatlahir" name="tempatlahir" required placeholder="Masukkan Tempat Lahir Anda"  autocomplete="off"/> 
+        </td></tr>   
+        
+          <tr><td>Tanggal Lahir:</td>
+              <td> <input type="date" /> </td>
+
+          <tr><td> <label for="JenisKelamin">Jenis Kelamin : </td>
+              <td> <input type="radio" name="JenisKelamin" value="Laki-Laki" required>Laki-laki 
+                   <input type="radio" name="JenisKelamin" value="Perempuan" required>Perempuan 
+         </td></tr> 
+
+         <tr><td> <label for="asalkota"> Asal Kota : </label> </td>
+             <td> <input type="text" id="asalkota" name="asalkota" required placeholder="Masukkan Asal Kota Anda "autocomplete="off"/> 
+             </td></tr>   
+             
+             
+
+         <tr><td> <label for="asalsekolah">Asal Sekolah : </label> </td>
+             <td> <input type="text" id="asalsekolah" name="asalsekolah" required placeholder="Masukkan Asal Sekolah Anda"  autocomplete="off"/> 
+            </td></tr>
+
+         <tr><td> <label for="nohp">Nomor HP/Telepon : </label> </td>
+             <td> <input type="text" id="nohp" name="nohp" required placeholder="Masukkan No HP Anda"  autocomplete="off"/> 
+             </td></tr>
+
+</table> 
+    <br/>
+        <button type="reset" value="batal">Reset</button> 
+        <button type="submit" value="kirim">Submit</button>
+        
+</fieldset>   
+
+<br/>
+<fieldset>
+    <legend>Data Pembelian Tiket Lomba</legend>
+    <table>
+
+    <tr><td> <label for="jumlah">Jumlah Pembelian Tiket Lomba : </label> </td>
+        <td> <input type="number" id="jumlah" name="jumlah" required placeholder="Masukkan Jumlah Pembelian Tiket Anda" autofocus autocomplete="off"/> 
+    </td></tr>
+
+    <tr><td> Jenis Perlombaan Cerdas Cermat : </td>
+        <td> <select name="jenisper">
+        <option value="Choose">--Pilih Jenis Perlombaan--</option>
+        <option value="Pengetahuan Indonesia">Pengetahuan Indonesia</option>
+        <option value="Pengetahuan Dunia">Pengetahuan Dunia</option> </select>
+        </td> </tr>
+
+    <tr> <td> <label for="Bukti">Bukti Pembayaran : </label> </td>
+         <td> <input type="file" value="kirim" required /> 
+    </td> </tr>
+</table> 
+<br/>
+    <button type="reset" value="batal">Reset</button> 
+    <button type="submit" value="kirim">Submit</button>
+    
+</fieldset>
+<br/>
+
+<fieldset>
+    <legend>Data Social Media Peserta</legend>
+    <table>
+
+<tr> <td> <label for="user">Username Socmed : </label>
+    <ol>
+       <li>Username Instagram : <input type="text" required placeholder="Username Instagram" /></li>
+       <li>Username Twitter : <input type="text" required placeholder="Username Twitter" /></li>
+       <li>Username Tiktok : <input type="text" required placeholder="Username Linkdln" /></li>
+       <li> Username Social Media Lainnya : <input type="text" required placeholder="Username Socmed Lain" /></li>
+    </td> </tr>
+</table> 
+<br/>
+<button type="reset" value="batal">Reset</button> 
+<button type="submit" value="kirim">Submit</button>
+
+</fieldset>
+    </body>
+</html>
